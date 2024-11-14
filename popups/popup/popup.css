@@ -11,6 +11,10 @@
     visibility: hidden;
 }
 
+#place{
+    margin-top: -525px;
+}
+
 .popup__cont{
     margin: 0 auto;
     margin-top: 50px;
@@ -72,7 +76,7 @@
     color: black;
     background-color: white;
     border-radius: 20px;
-    max-width: 1000px;
+    max-width: 700px;
     max-height: 500px;
     height: 100%;
     width: 100%;
@@ -98,8 +102,8 @@
 /* ----------------------------------------------------popup_1-6 */
 
 .popup-button{
-    margin-top: -310px;
-    max-width: 1000px;
+    margin-top: -270px;
+    max-width: 700px;
     width: 100%;
     max-height: 500px;
     height: 100%;
@@ -117,7 +121,7 @@
     color: black;
     border-radius: 20px;
     background-color: white;
-    max-width: 1000px;
+    max-width: 700px;
     width: 100%;
     position: relative;
     overflow-y: auto;
@@ -125,11 +129,10 @@
 
 .popup__cont-close{
     position: absolute;
-    margin-left: 0px;
     font-size: 20px;
     border: 1px solid black;
     padding: 5px 10px;
-    margin-left: 860px;
+    margin-left: 600px;
     margin-top: 40px;
     transition: 0.5s;
     border-radius: 7px;
@@ -151,8 +154,8 @@
 /* ----------------------------------------------------popup-button__2 */
 
 .popup-button__2{
-    margin-top: -500px;
-    max-width: 1000px;
+    margin-top: -490px;
+    max-width: 700px;
     width: 100%;
     max-height: 500px;
     height: 100%;
@@ -205,7 +208,7 @@
 }
 
 
-/* @media screen and (max-width: 1024px){
+@media screen and (max-width: 1024px){
     .popup{
         max-width: 1024px!important;
         width: 100%;
@@ -238,9 +241,9 @@
         width: 100%;
         margin-left: 35%;
     }
-} */
+}
 
-/* @media screen and (max-width: 1024px){
+@media screen and (max-width: 1024px){
     .popup-button{
         max-width: 498px!important;
         width: 100%;
@@ -268,8 +271,8 @@
         width: 100%;
         margin-top: -510px;
     }
-} */
-/* 
+}
+
 @media screen and (max-width: 1024px){
     .left__ident{
         max-width: 498px!important;
@@ -291,9 +294,116 @@
         width: 100%;
         margin-top: -500px;
     }
-} */
+}
 
-/* @media screen and (max-width: 1024px){
+@media screen and (max-width: 1024px){
+    .popup-4{
+        max-width: 498px!important;
+        width: 100%;
+        margin-top: -495px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .popup-5{
+        max-width: 498px!important;
+        width: 100%;
+        margin-top: -490px;
+    }
+}
+
+/* --------------------------------- */
+
+
+@media screen and (max-width: 1024px){
+    .popup-pod{
+        max-width: 1024px!important;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .popup__cont{
+        max-width: 990px!important;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .popup__text-title{
+        text-align: center!important;
+        margin-left: -60px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .popup__cont-btn{
+        margin-left: 920px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .popup__place-pod{
+        max-width: 500px!important;
+        width: 100%;
+        margin-left: 35%;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .popup-button{
+        max-width: 498px!important;
+        width: 100%;
+        margin-top: -240px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .popup-button__cont{
+        max-width: 498px!important;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .popup__cont-close{
+        margin-left: 75%;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .popup-button__2{
+        max-width: 498px!important;
+        width: 100%;
+        margin-top: -510px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .left__ident{
+        max-width: 498px!important;
+        padding-top: 50px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .popup-2{
+        max-width: 498px!important;
+        width: 100%;
+        margin-top: -505px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .popup-3{
+        max-width: 498px!important;
+        width: 100%;
+        margin-top: -500px;
+    }
+}
+
+@media screen and (max-width: 1024px){
     .popup-4{
         max-width: 498px!important;
         width: 100%;
@@ -312,7 +422,7 @@
 /* --------------------------------------------------------------------920px */
 
 
-/* @media screen and (max-width: 920px){
+ @media screen and (max-width: 920px){
     .popup{
         max-width: 920px!important;
         width: 100%;
@@ -321,9 +431,163 @@
 
 
 /* --------------------------------------------------------------------320px */
-/* 
-@media screen and (max-width: 920px){
+
+@media screen and (max-width: 320px){
     .popup{
-        margin-top: 920px!important;
+        margin-top: 0px!important;
+        max-width: 320px;
+        width: 100%;
     }
-}  */
+} 
+
+@media screen and (max-width: 320px){
+    .popup-pod{
+        margin-top: 0;
+        max-width: 600px!important;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .popup__cont{
+        max-width: 510px!important;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .popup__place{
+        margin-top: -570px;
+        margin-left: -97px;
+    }
+}
+
+/* @media screen and (max-width: 320px){
+    .ppopup__place{
+        margin-top: -70px;
+        margin-left: 200px;
+        display: block;
+    }
+} */
+
+@media screen and (max-width: 320px){
+    .popup__text-form{
+        margin-bottom: 500px;
+    }
+} 
+
+
+@media screen and (max-width: 320px){
+    .popup__text-title{
+        text-align: center;
+        padding-right: 10px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .popup__cont-btn{
+        margin-left: 87%;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .popup__place-pod{
+        max-width: 500px!important;
+        width: 100%;
+        margin-left: 35%;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .popup__button-par{
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .popup-button{
+        max-width: 498px!important;
+        width: 100%;
+        margin-top: -240px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .popup-button__cont{
+        max-width: 498px!important;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .popup__cont-close{
+        margin-left: 75%;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .popup-button__2{
+        max-width: 498px!important;
+        width: 100%;
+        margin-top: -510px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .left__ident-title{
+        font-size: 40px!important;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .left__ident-bold{
+        font-size: 30px!important;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .left__ident-number{
+        font-size: 35px!important;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .left__ident-par{
+        font-size: 30px!important;
+    }
+}
+
+
+@media screen and (max-width: 320px){
+    .popup-2{
+        max-width: 498px!important;
+        width: 100%;
+        margin-top: -505px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .popup-3{
+        max-width: 498px!important;
+        width: 100%;
+        margin-top: -500px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .popup-4{
+        max-width: 498px!important;
+        width: 100%;
+        margin-top: -495px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .popup-5{
+        max-width: 498px!important;
+        width: 100%;
+        margin-top: -490px;
+    }
+}
